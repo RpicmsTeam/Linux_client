@@ -2,7 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RPICMS 3.6.2\n"
-"PO-Revision-Date: 2015-02-02 08:55 UTC\n"
+"POT-Creation-Date: 2015-02-02 13:16 UTC\n"
+"PO-Revision-Date: 2015-02-02 13:08 UTC\n"
 "Last-Translator: Marcel Radzio <info@nordgedanken.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -17,27 +18,54 @@ msgstr "-"
 msgid "A native Editor for the RPICMS"
 msgstr "Ein nativer Editor für RPICMS Webseiten"
 
-#: FMain.form:10
+#: FMain.form:15
 msgid "RPICMS Client"
 msgstr "-"
 
-#: FMain.form:13 FSettings.form:14
+#: FMain.form:18 FSettings.form:18
 msgid "File"
 msgstr "Datei"
 
-#: FMain.form:16 FSettings.form:11
+#: FMain.form:21 FSettings.form:14
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: FMain.form:22 FSettings.form:17
+#: FMain.form:27 FSettings.form:21
 msgid "Quit"
 msgstr "Verlassen"
 
-#: FSettings.form:25
+#: FMain.form:47
+msgid "Home"
+msgstr "-"
+
+#: FMain.form:53
+msgid "Blog"
+msgstr "-"
+
+#: FMain.form:61
+msgid "Posts"
+msgstr "Beiträge"
+
+#: FMain.form:63
+msgid "Pages"
+msgstr "Seiten"
+
+#: FSettings.form:34
+msgid "General"
+msgstr "Allgemein"
+
+#: FSettings.form:36
 msgid "Websites"
 msgstr "Webseiten"
 
-#: FSettings.form:30
+#: FSettings.form:42
+msgid "Abort"
+msgstr "Abbruch"
+
+#: FSettings.form:47
+msgid "Save"
+msgstr "Speichern"
+
+#: FSettings.form:52
 msgid "Check for Updates"
 msgstr "Auf Aktualisierungen prüfen"
-

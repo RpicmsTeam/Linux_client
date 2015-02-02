@@ -3,6 +3,7 @@
 { Form Form
   MoveScaled(0,0,136,77)
   Text = ("Settings")
+  Resizable = False
   { File Menu
     Text = ("File")
     { Quit Menu
@@ -11,12 +12,28 @@
       Shortcut = "Ctrl+Q"
     }
   }
-  { Auth_settings Button
-    MoveScaled(49.4286,7,37,9)
-    Text = ("Websites")
-  }
-  { update_check Button
-    MoveScaled(50,61,37,5)
-    Text = ("Check for Updates")
+  { Panel1 Panel
+    MoveScaled(0,0,137,74)
+    { tab_settings TabStrip
+      MoveScaled(0,0,136,67)
+      Count = 2
+      Index = 0
+      Text = ("General")
+      Index = 1
+      Text = ("Websites")
+      Index = 0
+    }
+    { abort Button
+      MoveScaled(120,67,15,6)
+      Text = ("Abort")
+    }
+    { save Button
+      MoveScaled(103,67,15,6)
+      Text = ("Save")
+    }
+    { update_check Button
+      MoveScaled(0,67,37,6)
+      Text = ("Check for Updates")
+    }
   }
 }

@@ -1,7 +1,8 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,136,77)
+  MoveScaled(0,0,138,81)
+  Expand = True
   Text = ("RPICMS Client")
   { File Menu
     Text = ("File")
@@ -14,6 +15,37 @@
       Text = ("Quit")
       Picture = Picture["icon:/medium/quit"]
       Shortcut = "Ctrl+Q"
+    }
+  }
+  { Panel1 Panel
+    MoveScaled(0,0,138,77)
+    Expand = True
+    Arrangement = Arrange.Fill
+    AutoResize = True
+    { tab_home TabStrip
+      MoveScaled(0,0,138,77)
+      Drop = True
+      Expand = True
+      Arrangement = Arrange.Fill
+      AutoResize = True
+      Count = 3
+      Index = 0
+      Text = ("Home")
+      { home_title Label
+        MoveScaled(8,3,118,8)
+        Font = Font["Underline,Italic,Bold,+12"]
+        Expand = True
+        Text = ("Blog")
+        Alignment = Align.Center
+      }
+      { home_posts TextArea
+        MoveScaled(8,20,118,48)
+      }
+      Index = 1
+      Text = ("Posts")
+      Index = 2
+      Text = ("Pages")
+      Index = 0
     }
   }
 }
