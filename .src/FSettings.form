@@ -1,0 +1,22 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,136,77)
+  Text = ("Settings")
+  { File Menu
+    Text = ("File")
+    { Quit Menu
+      Text = ("Quit")
+      Picture = Picture["icon:/medium/quit"]
+      Shortcut = "Ctrl+Q"
+    }
+  }
+  { Auth_settings Button
+    MoveScaled(49.4286,7,37,9)
+    Text = ("Websites")
+  }
+  { update_check Button
+    MoveScaled(50,61,37,5)
+    Text = ("Check for Updates")
+  }
+}

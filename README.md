@@ -1,2 +1,2 @@
-# ubuntu_client
-An RPICMS Client for Ubuntu
+# RPICMS Linux Client
+An RPICMS Client for Linux(Ubuntu)

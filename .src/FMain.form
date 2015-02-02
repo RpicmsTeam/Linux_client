@@ -1,0 +1,19 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,136,77)
+  Text = ("RPICMS Client")
+  { File Menu
+    Text = ("File")
+    { Settings Menu
+      Text = ("Settings")
+      Picture = Picture["icon:/medium/properties"]
+      Shortcut = "Ctrl+P"
+    }
+    { Quit Menu
+      Text = ("Quit")
+      Picture = Picture["icon:/medium/quit"]
+      Shortcut = "Ctrl+Q"
+    }
+  }
+}
